@@ -147,6 +147,7 @@ int main()
 	return 0;
 }
 
+// Вывод на экран
 void output(string *tempArr, int size, int center)
 {
 	cout << setw((57 - center) + center / 2) << " ";
@@ -156,6 +157,7 @@ void output(string *tempArr, int size, int center)
 	}
 }
 
+// Вывод неправильных букв
 void wrongOutput(char wrongLetters[], int sizeSTAT, int value)
 {
 	string temp, line = "Неправильные буквы: ";
@@ -170,6 +172,7 @@ void wrongOutput(char wrongLetters[], int sizeSTAT, int value)
 	print(value);
 }
 
+// Вывод виселицы
 void print(int value)
 {
 	cout << endl;
