@@ -122,6 +122,7 @@ int main()
 		space = true;
 		cout << endl;
 		output(tempArr, size, center);
+
 		if (value > 0)
 		{
 			cout << endl << endl;
